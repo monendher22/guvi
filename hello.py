@@ -1,3 +1,3 @@
 n = int(input(''))
-for in range(n):
+for i in range(n):
   print('Hello')
