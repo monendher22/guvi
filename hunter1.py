@@ -1,6 +1,6 @@
 def reverseWordSentence(Sentence):
-  words = Sentence.split('')
+  words = Sentence.split(' ')
   newwords = [word[::-1] for word in words]
-  newSentence = ''.join(newwords)
+  newSentence = ' '.join(newwords)
   return newSentence
 print(reverseWordSentence(input()))
