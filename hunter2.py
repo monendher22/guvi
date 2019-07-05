@@ -1,0 +1,5 @@
+n,k = map(int,input().split())
+kth = map(int,input().split())
+li = list(kth)
+li.sort()
+print(li[-k])
