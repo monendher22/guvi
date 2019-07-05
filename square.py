@@ -1,7 +1,7 @@
-s = int(input(''))
-total = 0
-while(s>=0):
-  dig = s%10
-  total = total + dig*dig
-  s = s//10
-print(total)
+q=int(input())
+sum=0
+while(q>0):
+    dig=q%10
+    sum=sum+dig*dig
+    q=q//10
+print(sum)
